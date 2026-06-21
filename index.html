@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mansi Patel | Portfolio</title>
+    <!-- Premium Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for modern icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background blur blobs for high-quality visuals -->
+    <div class="background-decorations">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-accent">&lt;</span>Mansi Patel<span class="logo-accent"> /&gt;</span>
+            </a>
+            
+            <nav class="nav-links-container" id="nav-links">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <button class="mobile-toggle" aria-label="Toggle Menu" id="mobile-toggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="hero-content">
+            <div class="hero-tag">Welcome to my portfolio</div>
+            <h1 class="hero-name">Mansi Patel</h1>
+            <div class="hero-title-container">
+                <span class="typewriter-text" id="typewriter"></span><span class="cursor">|</span>
+            </div>
+            <p class="hero-description">
+                Building secure backend architectures with Python, exploring the boundaries of cybersecurity, and crafting three-dimensional designs.
+            </p>
+            <div class="hero-cta-group">
+                <a href="#projects" class="btn btn-primary">
+                    <span>View Projects</span>
+                    <i class="fa-solid fa-arrow-down"></i>
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <span>Get in Touch</span>
+                    <i class="fa-regular fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="terminal-mockup">
+                <div class="terminal-header">
+                    <span class="terminal-dot dot-red"></span>
+                    <span class="terminal-dot dot-yellow"></span>
+                    <span class="terminal-dot dot-green"></span>
+                    <span class="terminal-title">mansi@patel:~</span>
+                </div>
+                <div class="terminal-body">
+                    <p class="terminal-line"><span class="t-prompt">$</span> cat about_me.txt</p>
+                    <p class="terminal-output">Developer based in India. Enthusiastic about creating clean APIs, auditing network security, and crafting immersive 3D digital objects.</p>
+                    <p class="terminal-line"><span class="t-prompt">$</span> python -c "print('Let\'s build something secure!')"</p>
+                    <p class="terminal-output text-success">Let's build something secure!</p>
+                    <p class="terminal-line"><span class="t-prompt">$</span> <span class="t-pulse">_</span></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-section" id="about">
+        <div class="section-container">
+            <header class="section-header">
+                <h2>About Me</h2>
+                <div class="section-divider"></div>
+            </header>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        Hello! I'm Mansi Patel. I am a passionate developer with a strong foundation in **Python** backend development, a keen interest in **Cybersecurity**, and a creative outlet in **3D Design**.
+                    </p>
+                    <p>
+                        My coding journey centers on building fast, reliable, and secure web services. I specialize in backend microservices using frameworks like FastAPI and Flask, while actively investigating secure programming practices to mitigate vulnerabilities.
+                    </p>
+                    <p>
+                        Beyond traditional engineering, I love visual design. Creating spatial 3D models allows me to blend computational thinking with aesthetics to design unique user experiences.
+                    </p>
+                </div>
+                <div class="about-cards">
+                    <div class="about-card">
+                        <i class="fa-brands fa-python card-icon-color-1"></i>
+                        <h3>Python Backend</h3>
+                        <p>Designing secure Rest APIs, databases, and microservices.</p>
+                    </div>
+                    <div class="about-card">
+                        <i class="fa-solid fa-shield-halved card-icon-color-2"></i>
+                        <h3>Cybersecurity</h3>
+                        <p>Analyzing vulnerabilities, threat modeling, and network defense.</p>
+                    </div>
+                    <div class="about-card">
+                        <i class="fa-solid fa-cubes card-icon-color-3"></i>
+                        <h3>3D Design</h3>
+                        <p>Modeling geometries and structural assets for apps.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section" id="skills">
+        <div class="section-container">
+            <header class="section-header">
+                <h2>My Skills</h2>
+                <div class="section-divider"></div>
+            </header>
+            <div class="skills-grid">
+                <!-- Python -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-brands fa-python"></i></div>
+                    <span class="skill-name">Python</span>
+                </div>
+                <!-- Flask -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-pepper-hot"></i></div>
+                    <span class="skill-name">Flask</span>
+                </div>
+                <!-- FastAPI -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-bolt"></i></div>
+                    <span class="skill-name">FastAPI</span>
+                </div>
+                <!-- Cybersecurity -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-solid fa-user-shield"></i></div>
+                    <span class="skill-name">Cybersecurity</span>
+                </div>
+                <!-- HTML -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-brands fa-html5"></i></div>
+                    <span class="skill-name">HTML</span>
+                </div>
+                <!-- CSS -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-brands fa-css3-alt"></i></div>
+                    <span class="skill-name">CSS</span>
+                </div>
+                <!-- JavaScript -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-brands fa-js"></i></div>
+                    <span class="skill-name">JavaScript</span>
+                </div>
+                <!-- GitHub -->
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fa-brands fa-github"></i></div>
+                    <span class="skill-name">GitHub</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+        <div class="section-container">
+            <header class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="section-divider"></div>
+            </header>
+            <div class="projects-list">
+                <!-- Project 1: Age Calculator -->
+                <article class="project-card">
+                    <div class="project-visual">
+                        <div class="project-glow-layer"></div>
+                        <div class="project-preview-mock">
+                            <i class="fa-solid fa-cake-candles project-icon-bg"></i>
+                            <div class="mini-app-mock">
+                                <div class="mock-num">22</div>
+                                <div class="mock-lbl">Years Old</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">HTML • CSS • JS</div>
+                        <h3>Age Calculator</h3>
+                        <p class="project-desc">
+                            A modern, responsive age calculator that calculates precise age in years, months, and days. It features instant results, a celebratory next-birthday countdown (accounting for leap years), and dynamic count animations.
+                        </p>
+                        <div class="project-buttons">
+                            <a href="https://age-calculator-ten-woad.vercel.app" target="_blank" rel="noopener noreferrer" class="btn-proj btn-proj-primary">
+                                <i class="fa-solid fa-globe"></i>
+                                <span>Live Demo</span>
+                            </a>
+                            <a href="https://github.com/Mansip1/age-calculator" target="_blank" rel="noopener noreferrer" class="btn-proj btn-proj-secondary">
+                                <i class="fa-brands fa-github"></i>
+                                <span>GitHub Repository</span>
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section" id="contact">
+        <div class="section-container">
+            <header class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="section-divider"></div>
+            </header>
+            <div class="contact-grid">
+                <div class="contact-info-panel">
+                    <h3>Let's collaborate!</h3>
+                    <p class="contact-subtext">
+                        I am currently looking for new opportunities or exciting open-source projects. Whether you have a question or just want to say hi, feel free to drop me a message!
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method-item">
+                            <i class="fa-solid fa-envelope"></i>
+                            <div>
+                                <span class="method-label">Email</span>
+                                <a href="mailto:patelmansi9223@gmail.com" class="method-value">patelmansi9223@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-method-item">
+                            <i class="fa-brands fa-github"></i>
+                            <div>
+                                <span class="method-label">GitHub</span>
+                                <a href="https://github.com/Mansip1" target="_blank" rel="noopener noreferrer" class="method-value">github.com/Mansip1</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-panel">
+                    <form id="contact-form" action="mailto:patelmansi9223@gmail.com" method="GET" enctype="text/plain">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="form-name">Name</label>
+                                <input type="text" id="form-name" name="subject" required placeholder="Your Name">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-email">Email Address</label>
+                            <input type="email" id="form-email" name="email" required placeholder="name@example.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="form-message">Message</label>
+                            <textarea id="form-message" name="body" rows="5" required placeholder="Your Message..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary form-submit-btn">
+                            <span>Send Message</span>
+                            <i class="fa-regular fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2026 Mansi Patel. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/Mansip1" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:patelmansi9223@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom Script Link -->
+    <script src="script.js"></script>
+</body>
+</html>
