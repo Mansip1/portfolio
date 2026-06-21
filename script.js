@@ -2,7 +2,7 @@
 
 document.addEventListener('DOMContentLoaded', () => {
     // 1. Typewriter Effect
-    const words = ["Python Developer", "Cybersecurity Enthusiast", "3D Designer"];
+    const words = ["Python Developer", "Cybersecurity Enthusiast"];
     let wordIndex = 0;
     let charIndex = 0;
     let isDeleting = false;
